@@ -389,7 +389,7 @@ namespace ILRepacking
                 TargetAssemblyDefinition.Dispose();
                 GlobalAssemblyResolver.Dispose();
 
-                win32ResourceStep.Patch(Options.OutputFile);
+                //win32ResourceStep.Patch(Options.OutputFile);
 
                 MoveTempFile(Options.OutputFile, actualOutFile);
                 Options.OutputFile = actualOutFile;
